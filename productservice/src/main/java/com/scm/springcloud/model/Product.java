@@ -1,4 +1,4 @@
-package com.scm.sringcloud.model;
+package com.scm.springcloud.model;
 
 import java.math.BigDecimal;
 

@@ -1,4 +1,4 @@
-package com.scm.sringcloud.dto;
+package com.scm.springcloud.dto;
 
 import java.math.BigDecimal;
 
