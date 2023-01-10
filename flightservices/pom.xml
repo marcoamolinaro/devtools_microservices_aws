@@ -8,11 +8,11 @@
 		<version>3.0.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.scm.sringcloud</groupId>
-	<artifactId>couponservice</artifactId>
+	<groupId>com.scm.springcloud</groupId>
+	<artifactId>flightservices</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>couponservice</name>
-	<description>Coupon Service</description>
+	<name>flightservices</name>
+	<description>Flightservices from Devtools and AWS Microservices</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
