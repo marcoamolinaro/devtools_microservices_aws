@@ -1,8 +1,18 @@
-package com.scm.sringcloud.dto;
+package com.scm.springcloud.model;
 
 import java.math.BigDecimal;
 
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+@Entity
 public class Coupon {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long Id;
 	private String code;
 	private BigDecimal discount;
@@ -41,5 +51,8 @@ public class Coupon {
 	}
 	public void setExpDate(String expDate) {
 		this.expDate = expDate;
-	}	
+	}
+	
+	
+	
 }

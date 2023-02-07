@@ -1,4 +1,4 @@
-package com.scm.sringcloud.controllers;
+package com.scm.springcloud.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
-import com.scm.sringcloud.dto.Coupon;
-import com.scm.sringcloud.model.Product;
-import com.scm.sringcloud.repos.ProductRepo;
+import com.scm.springcloud.dto.Coupon;
+import com.scm.springcloud.model.Product;
+import com.scm.springcloud.repos.ProductRepo;
 
 @RestController
 @RequestMapping("productapi")

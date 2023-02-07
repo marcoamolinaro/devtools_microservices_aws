@@ -1,4 +1,4 @@
-package com.scm.sringcloud.controllers;
+package com.scm.springcloud.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.scm.sringcloud.model.Coupon;
-import com.scm.sringcloud.repos.CouponRepo;
+import com.scm.springcloud.model.Coupon;
+import com.scm.springcloud.repos.CouponRepo;
 
 @RestController
 @RequestMapping("/couponapi")

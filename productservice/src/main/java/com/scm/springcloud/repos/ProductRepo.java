@@ -1,8 +1,8 @@
-package com.scm.sringcloud.repos;
+package com.scm.springcloud.repos;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.scm.sringcloud.model.Product;
+import com.scm.springcloud.model.Product;
 
 public interface ProductRepo extends JpaRepository<Product, Long>{
 
