@@ -1,0 +1,22 @@
+	 docker swarm join --token SWMTKN-1-3m4sgo3dtd1bjb2fa73a9w0bk5jxw1u48geeh2ql8ut3980qki-exyyf0rq717ny2va35sle622p 172.31.11.11:2377
+
+docker swarm join-token manager
+
+docker service create --name my-redis --replicas=3 redisdocker service scale my-redis=8
+docker service scale my-redis=5
+docker service update --image=redis:3.0.5 my-redis
+docker service rollback my-redis
+
+docker service ls
+docker service ps k8cjkb44k333
+
+docker node update --availability drain IP
+docker node update --availability active IP
+
+docker stack deploy --compose-file docker-compose.yml my-stack
+
+To remover worker node
+docker sawrm leave
+
+to swift manager
+docker node demote IP
